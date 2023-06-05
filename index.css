@@ -1,0 +1,46 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 6.5rem 6.5rem 6.5rem;
+    gap: 1.6rem;
+}
+.nombre{
+    width: 15.9rem;
+    height: 9.4rem;
+}
+.logo{
+    margin-top: 14.2rem;
+    justify-self: center;
+}
+.CuadroNegro {
+    margin-top: 25rem;
+    margin-left: 3rem;
+    width: 31rem;
+    background-color: var(--colorNegro);
+    border-radius: 1rem;
+    color: var(--colorBlanco);
+    font-size: 2.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CuadroBlanco {
+    margin-left: 3rem;
+    width: 31rem;
+    margin-top: 1.5rem;
+    border: 1px solid var(--colorNegro);
+    border-radius: 1rem;
+    font-size: 2.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PalabraFinal {
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    justify-self: center;
+}
